@@ -242,10 +242,6 @@
     .heading_travel{
         font-size: 22px;
     }
-}
-@media (max-width:414px){
-    .enivorment{
-        padding-left: 80px;
     .footer_nav_ul{
         display: flex;
         flex-direction: column;
@@ -257,6 +253,11 @@
     }
     .contacts_heading_footer{
         margin-top: 20px;
+    }
+}
+@media (max-width:414px){
+    .enivorment{
+        padding-left: 80px;
     }
 }
 @media (max-width:375px){
