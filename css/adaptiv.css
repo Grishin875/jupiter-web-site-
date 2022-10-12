@@ -246,7 +246,7 @@
 @media (max-width:414px){
     .enivorment{
         padding-left: 80px;
-        .footer_nav_ul{
+    .footer_nav_ul{
         display: flex;
         flex-direction: column;
         justify-content: center;
