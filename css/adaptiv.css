@@ -246,13 +246,7 @@
 @media (max-width:414px){
     .enivorment{
         padding-left: 80px;
-    }
-}
-@media (max-width:375px){
-    .enivorment{
-        padding-left: 70px;
-    }
-    .footer_nav_ul{
+        .footer_nav_ul{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -265,3 +259,7 @@
         margin-top: 20px;
     }
 }
+@media (max-width:375px){
+    .enivorment{
+        padding-left: 70px;
+    }
