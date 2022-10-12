@@ -1,0 +1,280 @@
+@media (max-width:1024px){
+    .wrapper_penthays{
+        display: flex;
+        justify-content: center;
+    }
+    .wrapper_apartament{
+        justify-content: center;
+    }
+    .wrapper_style{
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .private_img_style{
+        margin-top: 20px;
+    }
+    .heading_travel{
+        font-size: 26px;
+    }
+    .wrapper_main_travel{
+        display: flex;
+        justify-content: center;
+    }
+    .wrapper_travel{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .info_heading{
+        margin-top: -10px;
+        margin-bottom: -30px;
+    }
+    .info_text{
+        margin-top: -30px;
+        margin-bottom: -20px;
+    }
+    .about_project{
+        margin-left: -50px;
+        margin-bottom: -20px;
+    }
+      .project_about_text{
+        margin-left: -50px;
+        padding-bottom: 15px;
+    } 
+}
+@media  (max-width:895px) {
+    /** BURGER MENU **/
+    .nav_ul{
+        display: none;
+    }
+    .hamb{
+        display: flex;
+    }
+    .hamb_field{
+        padding: 15px 20px;
+        padding-bottom: 0px;
+    }
+    .bar{
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: #FFFFFF;
+        margin: 6px auto;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+    .popup{
+        position: fixed;
+        top: 95px;
+        right: -100%;
+        width: 100%;
+        height: 100%;
+        background: #282828;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        transition: 0.3s;
+    }
+    .popup.open{
+        right: 0;
+    }
+    .popup .nav_ul{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: start;
+        overflow: auto;
+        width: 100%;
+        height: 100%;
+    }
+    .popup .nav_ul > li > a{
+        width: 100%;
+        font-size: 26px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .hamb_field.active .bar::nth-child(2) {
+        opacity: 0;
+    }
+    
+      .hamb_field.active .bar::nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+      .hamb_field.active .bar::nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    
+      body.noscroll {
+        overflow: hidden;
+    }
+      .about_project{
+        margin-left: -50px;
+        margin-bottom: -20px;
+    }
+      .project_about_text{
+        margin-left: -50px;
+        padding-bottom: 15px;
+    } 
+      .evivorment_ul{
+        flex-direction: column;
+        justify-content: center;
+    }
+      .wrapper_enivorment{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .enivorment{
+        padding-left: 300px;
+    }
+    .wrapper_penthays{
+        display: flex;
+        justify-content: center;
+    }
+    .wrapper_apartament{
+        justify-content: center;
+    }
+    .wrapper_style{
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .private_img_style{
+        margin-top: 20px;
+    }
+    .wrapper_travel{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .heading_travel{
+        font-size: 32px;
+    }
+    .wrapper_main_travel{
+        display: flex;
+        justify-content: center;
+    }
+    .hobies_text{
+        padding-top: 15px;
+    }
+    .info_heading{
+        margin-top: -10px;
+        margin-bottom: -30px;
+    }
+    .info_text{
+        margin-top: -30px;
+        margin-bottom: -20px;
+    }
+    .heading_travel{
+        font-size: 26px;
+    }
+    .wrapper_technica_info{
+        margin-top: 120px ;
+    }
+    .wrapper_apartament{
+        margin-top: 120px;
+    }
+    .requments{
+        margin-top: -20px;
+        display: block;
+    }
+    .header{
+        display: flex;
+        justify-content: center;
+        background: url(../img/header_fonts.png)no-repeat center / cover  matrix(-1, 0, 0, 1, 0, 0);
+        height: 100%;
+    }
+}
+@media (max-width:750px){
+    .header{
+        display: flex;
+        justify-content: center;
+        background: url(../img/header_fonts.png)no-repeat center / cover  matrix(-1, 0, 0, 1, 0, 0);
+        height: 100%;
+    }
+    .enivorment{
+        padding-left: 250px;
+    }
+}
+@media (max-width:580px){
+    .header{
+        display: flex;
+        justify-content: center;
+        background: url(../img/header_fonts.png)no-repeat center / cover  matrix(-1, 0, 0, 1, 0, 0);
+        height: 100%;
+    }
+    .private_apartament{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn_apartament{
+        padding: 18px 40px;
+    }
+    .private_penthays{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn_penthays{
+        padding: 18px 40px;
+    }
+    .adress_enivorment{
+        margin-top: -20px;
+    }
+    .enivorment{
+        padding-left: 180px;
+    }
+    .quit_home{
+        font-size: 46px;
+    }
+    .build_home{
+        font-size: 18px;
+    }
+    .text_penthays{
+        padding-top: 10px;
+    }
+    .apartaments{
+        padding-top: 10px;
+    }
+    .wrapper_style{
+        margin-top: 120px;
+    }
+    .heading_technical_info{
+        font-size: 28px;
+    }
+    .heading_travel{
+        font-size: 22px;
+    }
+}
+@media (max-width:414px){
+    .enivorment{
+        padding-left: 80px;
+    }
+}
+@media (max-width:375px){
+    .enivorment{
+        padding-left: 70px;
+    }
+    .footer_nav_ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer_nav_ul > li{
+        margin-top: 15px;
+        justify-content: center;
+    }
+    .contacts_heading_footer{
+        margin-top: 20px;
+    }
+}
